@@ -1,49 +1,35 @@
 {
-  "id": "b360a49a-a427-4fe0-b670-91d68b10b6b0",
+  "id": "4ff3f144-38d8-40e2-80b4-0f127640a25a",
   "version": "2.0",
   "name": "QA Training 2019",
-  "url": "https://www.epam.com/careers",
+  "url": "https://www.epam.com",
   "tests": [{
-    "id": "a4c8ffb3-d872-43c0-a17d-9df71db35267",
+    "id": "696fc38f-dedf-4bb7-b5f9-07c163419959",
     "name": "Journey",
     "commands": [{
-      "id": "8c7d8cbb-e5d4-472b-832d-ba610176ea95",
-      "comment": "",
+      "id": "3ff472bd-4ba4-45bc-ac6d-f1c74055a822",
+      "comment": "The careers page is opened",
       "command": "open",
-      "target": "https://www.epam.com/careers",
+      "target": "/careers",
       "targets": [],
       "value": ""
     }, {
-      "id": "0095052e-962f-4112-a0b7-207ebc9523fd",
-      "comment": "",
+      "id": "07a9292c-d352-41f6-a121-5f69d4e47766",
+      "comment": "The browser is maximized",
       "command": "setWindowSize",
-      "target": "987x1080",
+      "target": "1828x1096",
       "targets": [],
       "value": ""
     }, {
-      "id": "293cd80d-8d5f-4847-8165-afac592b5b8c",
-      "comment": "",
-      "command": "waitForElementPresent",
-      "target": "css=.section:nth-child(2) .title-ui",
-      "targets": [],
-      "value": "FIND YOUR DREAM JOB"
-    }, {
-      "id": "3bfdcb32-62b5-4a88-8daf-35db8b09bb28",
-      "comment": "",
-      "command": "assertText",
-      "target": "css=.section:nth-child(2) .title-ui",
-      "targets": [],
-      "value": "FIND YOUR DREAM JOB"
-    }, {
-      "id": "8cf14d57-cf08-459e-908e-b303cfd63879",
-      "comment": "",
+      "id": "482fe64d-fc85-479d-8e9a-25a59354d782",
+      "comment": "The search form should be visible",
       "command": "assertElementPresent",
       "target": "css=.recruiting-search__form",
       "targets": [],
       "value": ""
     }, {
-      "id": "60d9ee9d-dad9-4782-aa79-a3170020f2ac",
-      "comment": "",
+      "id": "416546f3-05af-4ff6-a02a-f20601ba4784",
+      "comment": "Click on Location filter box",
       "command": "mouseDown",
       "target": "css=.select2-selection__rendered",
       "targets": [
@@ -53,8 +39,8 @@
       ],
       "value": ""
     }, {
-      "id": "a4896f46-8c14-4b70-951c-be1e73bee97d",
-      "comment": "",
+      "id": "cc5027cf-d361-4e04-ad7f-0624291ad24a",
+      "comment": "...",
       "command": "mouseUp",
       "target": "css=.select2-search__field",
       "targets": [
@@ -65,8 +51,8 @@
       ],
       "value": ""
     }, {
-      "id": "138019f9-7912-42aa-ad0c-d3b0461d69fa",
-      "comment": "",
+      "id": "2611b6fb-6f3b-4f5a-8232-407fb37e0f6c",
+      "comment": "Select Debrecen",
       "command": "click",
       "target": "css=.recruiting-search__location",
       "targets": [
@@ -76,9 +62,9 @@
       ],
       "value": ""
     }, {
-      "id": "4a2a740c-c49c-49bb-ba6f-2bc1e1b467b4",
-      "comment": "",
-      "command": "verifyText",
+      "id": "1618076e-eed6-4754-a821-3a0b85660611",
+      "comment": "The location filter box should contain Debrecen",
+      "command": "assertText",
       "target": "css=.select2-selection__rendered",
       "targets": [
         ["css=.select2-selection__rendered", "css:finder"],
@@ -87,19 +73,8 @@
       ],
       "value": "Debrecen"
     }, {
-      "id": "e8c10444-7bd7-4151-8420-19939f1bbe27",
-      "comment": "",
-      "command": "assertText",
-      "target": "css=.default-label",
-      "targets": [
-        ["css=.default-label", "css:finder"],
-        ["xpath=//main[@id='main']/div/div[2]/section/div/div[2]/div/form/div[3]/div/div/div", "xpath:idRelative"],
-        ["xpath=//div[3]/div/div/div", "xpath:position"]
-      ],
-      "value": "All Skills"
-    }, {
-      "id": "5933ee42-7e65-4a3a-a4c8-299a949decc2",
-      "comment": "",
+      "id": "11572c4d-c8af-4afb-b53a-a129f638d96e",
+      "comment": "Click on Skills filter box",
       "command": "click",
       "target": "css=.default-label",
       "targets": [
@@ -109,8 +84,8 @@
       ],
       "value": ""
     }, {
-      "id": "2befc672-3bca-4991-8c22-f04704b7724c",
-      "comment": "",
+      "id": "b68d0f52-204e-442e-ad7b-1d31d99ef3bd",
+      "comment": "Select Software Test Engineering\t",
       "command": "click",
       "target": "css=.multi-select-column:nth-child(2) > li:nth-child(5) .checkbox-custom-label",
       "targets": [
@@ -121,8 +96,8 @@
       ],
       "value": ""
     }, {
-      "id": "19d7a3ce-4fbd-4159-9730-bb274f1fcd91",
-      "comment": "",
+      "id": "a8358f8e-952c-46e1-b33f-0e2a0e285cfc",
+      "comment": "The skills filter box should contain Selected: 1 text",
       "command": "assertText",
       "target": "css=.counter",
       "targets": [
@@ -133,8 +108,8 @@
       ],
       "value": "1"
     }, {
-      "id": "60a192b9-a1ce-4853-bdbc-22ede9667543",
-      "comment": "",
+      "id": "56a27a94-0163-467d-ad0a-794f08fbd6f9",
+      "comment": "Find button is clicked",
       "command": "click",
       "target": "css=.recruiting-search__submit",
       "targets": [
@@ -145,27 +120,8 @@
       ],
       "value": ""
     }, {
-      "id": "593d347d-504c-48e5-9961-a4d828f55fe3",
-      "comment": "",
-      "command": "assertText",
-      "target": "css=.select2-selection__rendered",
-      "targets": [],
-      "value": "Debrecen"
-    }, {
-      "id": "b986a64e-a727-4d96-b702-56dabd3c541c",
-      "comment": "",
-      "command": "assertText",
-      "target": "css=.counter",
-      "targets": [
-        ["css=.counter", "css:finder"],
-        ["xpath=//main[@id='main']/div/div/section/div/div/div/form/div[3]/div/div/div[2]/span[2]", "xpath:idRelative"],
-        ["xpath=//div[2]/span[2]", "xpath:position"],
-        ["xpath=//span[contains(.,'1')]", "xpath:innerText"]
-      ],
-      "value": "1"
-    }, {
-      "id": "bb667fae-1c34-42b7-8b72-434555f48a50",
-      "comment": "",
+      "id": "c6a2a414-d4de-414d-a5d7-4afdc3526c45",
+      "comment": "The selected skill should be SOFTWARE TEST ENGINEERING",
       "command": "assertText",
       "target": "css=.filter-tag:nth-child(1)",
       "targets": [
@@ -175,10 +131,10 @@
       ],
       "value": "SOFTWARE TEST ENGINEERING"
     }, {
-      "id": "ff5ed6d6-87f1-4767-93b0-9d39f0adc334",
-      "comment": "",
+      "id": "a3891e0b-b281-4635-bcba-f9398921c2c3",
+      "comment": "The Test Automation Engineer position should be visible",
       "command": "assertText",
-      "target": "linkText=Test Automation Engineer",
+      "target": "css=.search-result__item:nth-child(2) .search-result__item-name",
       "targets": [
         ["linkText=Test Automation Engineer", "linkText"],
         ["css=.search-result__item:nth-child(2) .search-result__item-name", "css:finder"],
@@ -190,8 +146,8 @@
       ],
       "value": "Test Automation Engineer"
     }, {
-      "id": "d4460e3d-3097-48b5-8cbe-9c7db1a2af87",
-      "comment": "",
+      "id": "8459e1cb-86aa-4340-a72b-bd152d06ba16",
+      "comment": "The location of the position should be Debrecen",
       "command": "assertText",
       "target": "css=.search-result__item:nth-child(2) .search-result__location",
       "targets": [
@@ -201,9 +157,9 @@
       ],
       "value": "DEBRECEN, HUNGARY"
     }, {
-      "id": "e4c26ba2-0565-4c05-8c49-e3849cffd50e",
-      "comment": "",
-      "command": "assertText",
+      "id": "5527a688-87eb-44ba-bd5e-bd9aaa8a4740",
+      "comment": "There should be an Apply button for the position",
+      "command": "assertElementPresent",
       "target": "css=.search-result__item:nth-child(2) .search-result__item-apply",
       "targets": [
         ["css=.search-result__item:nth-child(2) .search-result__item-apply", "css:finder"],
@@ -212,10 +168,10 @@
         ["xpath=(//a[contains(@href, '/careers/job-listings/job.19100')])[2]", "xpath:href"],
         ["xpath=//li[2]/div[2]/div/a", "xpath:position"]
       ],
-      "value": "APPLY"
+      "value": ""
     }, {
-      "id": "b8fa2e42-9484-4c69-a249-22342906eb82",
-      "comment": "",
+      "id": "3d468b9a-c8a7-43d5-b57d-e472a8433b6f",
+      "comment": "Click on Apply button of the position",
       "command": "click",
       "target": "css=.search-result__item:nth-child(2) .search-result__item-apply",
       "targets": [
@@ -227,20 +183,8 @@
       ],
       "value": ""
     }, {
-      "id": "64e09980-9f6b-4eee-839f-b62679f30e3b",
-      "comment": "",
-      "command": "assertText",
-      "target": "css=h1",
-      "targets": [
-        ["css=h1", "css:finder"],
-        ["xpath=//main[@id='main']/article/div/header/h1", "xpath:idRelative"],
-        ["xpath=//h1", "xpath:position"],
-        ["xpath=//h1[contains(.,'Test Automation Engineer')]", "xpath:innerText"]
-      ],
-      "value": "Test Automation Engineer"
-    }, {
-      "id": "54552728-cf49-4b55-bc54-467f1665bd30",
-      "comment": "",
+      "id": "d1d89235-0463-40db-9d90-971fed42dc23",
+      "comment": "The job description should contain Debrecen",
       "command": "assertText",
       "target": "css=.recruiting-page__location > li",
       "targets": [
@@ -250,8 +194,8 @@
       ],
       "value": "Debrecen, Hungary"
     }, {
-      "id": "0f938469-c08e-44a9-8877-7d4aca9aeb10",
-      "comment": "",
+      "id": "8af838b4-37bb-408c-ad34-9d366812adb6",
+      "comment": "The job description should contain Test Automation Engineer",
       "command": "assertText",
       "target": "css=strong:nth-child(5)",
       "targets": [
@@ -262,8 +206,8 @@
       ],
       "value": "Test Automation Engineer"
     }, {
-      "id": "8a526e54-9a56-4b25-8352-86e966a5db3f",
-      "comment": "",
+      "id": "ffefed8d-b162-4cc0-ad5a-417d5a87f2b8",
+      "comment": "There should be a Submit button",
       "command": "assertText",
       "target": "css=.button-ui:nth-child(1)",
       "targets": [
@@ -276,13 +220,13 @@
     }]
   }],
   "suites": [{
-    "id": "3e5ee263-fa04-407e-971e-5cf4dfe71dea",
+    "id": "ae23a75d-1197-4a41-bf93-5d1da0d1fde7",
     "name": "Default Suite",
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": ["a4c8ffb3-d872-43c0-a17d-9df71db35267"]
+    "tests": []
   }],
-  "urls": ["https://www.epam.com/careers"],
+  "urls": ["https://www.epam.com/"],
   "plugins": []
 }

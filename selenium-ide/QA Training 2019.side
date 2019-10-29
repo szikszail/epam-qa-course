@@ -1,0 +1,288 @@
+{
+  "id": "b360a49a-a427-4fe0-b670-91d68b10b6b0",
+  "version": "2.0",
+  "name": "QA Training 2019",
+  "url": "https://www.epam.com/careers",
+  "tests": [{
+    "id": "a4c8ffb3-d872-43c0-a17d-9df71db35267",
+    "name": "Journey",
+    "commands": [{
+      "id": "8c7d8cbb-e5d4-472b-832d-ba610176ea95",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.epam.com/careers",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0095052e-962f-4112-a0b7-207ebc9523fd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "987x1080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "293cd80d-8d5f-4847-8165-afac592b5b8c",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.section:nth-child(2) .title-ui",
+      "targets": [],
+      "value": "FIND YOUR DREAM JOB"
+    }, {
+      "id": "3bfdcb32-62b5-4a88-8daf-35db8b09bb28",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.section:nth-child(2) .title-ui",
+      "targets": [],
+      "value": "FIND YOUR DREAM JOB"
+    }, {
+      "id": "8cf14d57-cf08-459e-908e-b303cfd63879",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.recruiting-search__form",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "60d9ee9d-dad9-4782-aa79-a3170020f2ac",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.select2-selection__rendered",
+      "targets": [
+        ["css=.select2-selection__rendered", "css:finder"],
+        ["xpath=//main[@id='main']/div/div[2]/section/div/div[2]/div/form/div[2]/div/span/span/span/span", "xpath:idRelative"],
+        ["xpath=//span/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4896f46-8c14-4b70-951c-be1e73bee97d",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.select2-search__field",
+      "targets": [
+        ["css=.select2-search__field", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div/div[2]/section/div/div[2]/div/form/div[2]/div/span[2]/span/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "138019f9-7912-42aa-ad0c-d3b0461d69fa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.recruiting-search__location",
+      "targets": [
+        ["css=.recruiting-search__location", "css:finder"],
+        ["xpath=//main[@id='main']/div/div[2]/section/div/div[2]/div/form/div[2]/div", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a2a740c-c49c-49bb-ba6f-2bc1e1b467b4",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.select2-selection__rendered",
+      "targets": [
+        ["css=.select2-selection__rendered", "css:finder"],
+        ["xpath=//main[@id='main']/div/div[2]/section/div/div[2]/div/form/div[2]/div/span/span/span/span", "xpath:idRelative"],
+        ["xpath=//span/span/span/span", "xpath:position"]
+      ],
+      "value": "Debrecen"
+    }, {
+      "id": "e8c10444-7bd7-4151-8420-19939f1bbe27",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.default-label",
+      "targets": [
+        ["css=.default-label", "css:finder"],
+        ["xpath=//main[@id='main']/div/div[2]/section/div/div[2]/div/form/div[3]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": "All Skills"
+    }, {
+      "id": "5933ee42-7e65-4a3a-a4c8-299a949decc2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.default-label",
+      "targets": [
+        ["css=.default-label", "css:finder"],
+        ["xpath=//main[@id='main']/div/div[2]/section/div/div[2]/div/form/div[3]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2befc672-3bca-4991-8c22-f04704b7724c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.multi-select-column:nth-child(2) > li:nth-child(5) .checkbox-custom-label",
+      "targets": [
+        ["css=.multi-select-column:nth-child(2) > li:nth-child(5) .checkbox-custom-label", "css:finder"],
+        ["xpath=//main[@id='main']/div/div[2]/section/div/div[2]/div/form/div[3]/div/div[2]/div/ul[2]/li[5]/label/span", "xpath:idRelative"],
+        ["xpath=//ul[2]/li[5]/label/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Software Test Engineering')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "19d7a3ce-4fbd-4159-9730-bb274f1fcd91",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.counter",
+      "targets": [
+        ["css=.counter", "css:finder"],
+        ["xpath=//main[@id='main']/div/div[2]/section/div/div[2]/div/form/div[3]/div/div/div[2]/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'1')]", "xpath:innerText"]
+      ],
+      "value": "1"
+    }, {
+      "id": "60a192b9-a1ce-4853-bdbc-22ede9667543",
+      "comment": "",
+      "command": "click",
+      "target": "css=.recruiting-search__submit",
+      "targets": [
+        ["css=.recruiting-search__submit", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div/div[2]/section/div/div[2]/div/form/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "593d347d-504c-48e5-9961-a4d828f55fe3",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.select2-selection__rendered",
+      "targets": [],
+      "value": "Debrecen"
+    }, {
+      "id": "b986a64e-a727-4d96-b702-56dabd3c541c",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.counter",
+      "targets": [
+        ["css=.counter", "css:finder"],
+        ["xpath=//main[@id='main']/div/div/section/div/div/div/form/div[3]/div/div/div[2]/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'1')]", "xpath:innerText"]
+      ],
+      "value": "1"
+    }, {
+      "id": "bb667fae-1c34-42b7-8b72-434555f48a50",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.filter-tag:nth-child(1)",
+      "targets": [
+        ["css=.filter-tag:nth-child(1)", "css:finder"],
+        ["xpath=//main[@id='main']/div/div/section/div/div/div/ul/li", "xpath:idRelative"],
+        ["xpath=//section/div/div/div/ul/li", "xpath:position"]
+      ],
+      "value": "SOFTWARE TEST ENGINEERING"
+    }, {
+      "id": "ff5ed6d6-87f1-4767-93b0-9d39f0adc334",
+      "comment": "",
+      "command": "assertText",
+      "target": "linkText=Test Automation Engineer",
+      "targets": [
+        ["linkText=Test Automation Engineer", "linkText"],
+        ["css=.search-result__item:nth-child(2) .search-result__item-name", "css:finder"],
+        ["xpath=//a[contains(text(),'Test Automation Engineer')]", "xpath:link"],
+        ["xpath=//main[@id='main']/div/div/section/div/div/div/section/ul/li[2]/div/h5/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/careers/job-listings/job.19100')]", "xpath:href"],
+        ["xpath=//li[2]/div/h5/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Test Automation Engineer')]", "xpath:innerText"]
+      ],
+      "value": "Test Automation Engineer"
+    }, {
+      "id": "d4460e3d-3097-48b5-8cbe-9c7db1a2af87",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.search-result__item:nth-child(2) .search-result__location",
+      "targets": [
+        ["css=.search-result__item:nth-child(2) .search-result__location", "css:finder"],
+        ["xpath=//main[@id='main']/div/div/section/div/div/div/section/ul/li[2]/div/strong", "xpath:idRelative"],
+        ["xpath=//li[2]/div/strong", "xpath:position"]
+      ],
+      "value": "DEBRECEN, HUNGARY"
+    }, {
+      "id": "e4c26ba2-0565-4c05-8c49-e3849cffd50e",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.search-result__item:nth-child(2) .search-result__item-apply",
+      "targets": [
+        ["css=.search-result__item:nth-child(2) .search-result__item-apply", "css:finder"],
+        ["xpath=(//a[contains(text(),'Apply')])[2]", "xpath:link"],
+        ["xpath=//main[@id='main']/div/div/section/div/div/div/section/ul/li[2]/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/careers/job-listings/job.19100')])[2]", "xpath:href"],
+        ["xpath=//li[2]/div[2]/div/a", "xpath:position"]
+      ],
+      "value": "APPLY"
+    }, {
+      "id": "b8fa2e42-9484-4c69-a249-22342906eb82",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-result__item:nth-child(2) .search-result__item-apply",
+      "targets": [
+        ["css=.search-result__item:nth-child(2) .search-result__item-apply", "css:finder"],
+        ["xpath=(//a[contains(text(),'Apply')])[2]", "xpath:link"],
+        ["xpath=//main[@id='main']/div/div/section/div/div/div/section/ul/li[2]/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/careers/job-listings/job.19100')])[2]", "xpath:href"],
+        ["xpath=//li[2]/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "64e09980-9f6b-4eee-839f-b62679f30e3b",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//main[@id='main']/article/div/header/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Test Automation Engineer')]", "xpath:innerText"]
+      ],
+      "value": "Test Automation Engineer"
+    }, {
+      "id": "54552728-cf49-4b55-bc54-467f1665bd30",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.recruiting-page__location > li",
+      "targets": [
+        ["css=.recruiting-page__location > li", "css:finder"],
+        ["xpath=//main[@id='main']/article/div/header/ul/li", "xpath:idRelative"],
+        ["xpath=//header/ul/li", "xpath:position"]
+      ],
+      "value": "Debrecen, Hungary"
+    }, {
+      "id": "0f938469-c08e-44a9-8877-7d4aca9aeb10",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=strong:nth-child(5)",
+      "targets": [
+        ["css=strong:nth-child(5)", "css:finder"],
+        ["xpath=//main[@id='main']/article/div/section/div[2]/div/strong", "xpath:idRelative"],
+        ["xpath=//div[2]/div/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Test Automation Engineer')]", "xpath:innerText"]
+      ],
+      "value": "Test Automation Engineer"
+    }, {
+      "id": "8a526e54-9a56-4b25-8352-86e966a5db3f",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.button-ui:nth-child(1)",
+      "targets": [
+        ["css=.button-ui:nth-child(1)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='_content_epam_en_careers_job-listings_job_jcr_content_right-container_form_constructor']/div[19]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[19]/div/div[2]/button", "xpath:position"]
+      ],
+      "value": "SUBMIT"
+    }]
+  }],
+  "suites": [{
+    "id": "3e5ee263-fa04-407e-971e-5cf4dfe71dea",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a4c8ffb3-d872-43c0-a17d-9df71db35267"]
+  }],
+  "urls": ["https://www.epam.com/careers"],
+  "plugins": []
+}
